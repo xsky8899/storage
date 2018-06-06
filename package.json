@@ -1,19 +1,32 @@
 {
-  "name": "storage",
+  "name": "fast-x-storage",
   "version": "0.0.1",
-  "description": "storage",
-  "main": "index.js",
+  "description": "fast-x-storage",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "example": "http-server -p 8088"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xsky8899/storage.git"
   },
-  "author": "xsky8899 <xsky8899@163.com>",
+  "author": "https://github.com/xsky8899",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/xsky8899/storage/issues"
   },
-  "homepage": "https://github.com/xsky8899/storage#readme"
+  "homepage": "https://github.com/xsky8899/storage#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.11.0",
+    "webpack-cli": "^3.0.2"
+  },
+  "dependencies": {
+    "user": "0.0.0"
+  }
 }
